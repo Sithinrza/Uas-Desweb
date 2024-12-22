@@ -14,4 +14,5 @@ class Collection extends Model
         'name', 'nama_pelukis', 'year', 'description', 'tipe_lukisan',
         'status', 'condition', 'image',
     ];
+    
 }

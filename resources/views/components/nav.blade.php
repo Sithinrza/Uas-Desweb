@@ -5,16 +5,14 @@
         <nav>
             <ul>
                 <li><u><b><a href="index.html" class="menu">Home</a></u></b></li>
-                <li><a href="about.html" class="menu">About</a></li>
-                <li><a href="collection.html" class="menu">Collection</a></li>
-                <li><a href="facilities.html" class="menu">Facilities</a></li>
-                <li><a href="contact.html" class="menu">Contact</a></li>
+                <li><a href="#event" class="menu">Event</a></li>
+                <li><a href="collection.html" class="menu">About</a></li>
                 <li><a href="login.html" class="menu">Sign In</a></li>
             </ul>
         </nav>
     </div>
 
-    <div class="row">
+    <div class="row" style="padding: 100px">
         <div class="col-1">
             <h2>Selamat Datang di</h2>
             <h3>MUSEUM GEOLOGI BANDUNG</h3>
@@ -23,7 +21,7 @@
             <button type="button"><b>Konsultasi</b></i></button>
         </div>
         <div class="col-2">
-            <img style="height: 500px" src="{{ asset('css/foto.webp') }}" class="rex">
+            <img style="height: 550px" src="{{ asset('css/foto.webp') }}" class="rex">
         </div>
 </div>
 <div class="row">

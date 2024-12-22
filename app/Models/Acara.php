@@ -18,4 +18,5 @@ class Acara extends Model
     protected $casts = [
         'date' => 'date',
     ];
+    
 }

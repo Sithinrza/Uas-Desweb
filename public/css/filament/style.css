@@ -16,9 +16,10 @@
 }
 
 .navbar{
-	width: 100%;
+	width: 88%;
 	display: flex;
 	align-items: center;
+    position: fixed;
 }
 
 .tlogo{

@@ -17,10 +17,9 @@ class CollectionController extends Controller
     return view('collections.index', compact('collections', 'acaras'));
 }
 
-public function show($id)
-{
-    $collection = Collection::findOrFail($id); // Ambil data koleksi berdasarkan ID
-    return view('collections.show', compact('collection'));
-}
-
+    public function show($id)
+    {
+        $collection = Collection::findOrFail($id);
+        return view('collections.show', compact('collection'));
+    }
 }
