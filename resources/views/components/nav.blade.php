@@ -7,12 +7,12 @@
                 <li><u><b><a href="index.html" class="menu">Home</a></u></b></li>
                 <li><a href="#event" class="menu">Event</a></li>
                 <li><a href="collection.html" class="menu">About</a></li>
-                <li><a href="login.html" class="menu">Sign In</a></li>
+                <li><a href="{{ route('login') }}" class="menu">Sign In</a></li>
             </ul>
         </nav>
     </div>
 
-    <div class="row" style="padding: 100px">
+    <div class="row">
         <div class="col-1">
             <h2>Selamat Datang di</h2>
             <h3>MUSEUM GEOLOGI BANDUNG</h3>
