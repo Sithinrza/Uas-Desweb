@@ -1,7 +1,7 @@
 @extends('layout.app')
 <div class="container">
     <div class="navbar">
-        <a href="index.html"><img src="img/logo/museum.jpg" id="logo"></a><h1 class="tlogo">MUSEUM GEOLOGI</h1>
+        <a href="index.html"><img src="{{ asset('css/ikon.png') }}" id="logo"></a><h1 class="tlogo">MUSEUM GEOLOGI</h1>
         <nav>
             <ul>
                 <li><u><b><a href="index.html" class="menu">Home</a></u></b></li>

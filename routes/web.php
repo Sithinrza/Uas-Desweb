@@ -10,4 +10,4 @@ Route::get('/', function () {
 
 Route::get('/', [CollectionController::class, 'index']);
 Route::get('/{collection}', [CollectionController::class, 'show'])->name('collections.show');
-// Acara routes (with 'acara' prefix)
+

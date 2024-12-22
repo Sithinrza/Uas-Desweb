@@ -30,8 +30,7 @@
                                     <span>Kondisi: {{ $collection->condition }}</span>
                                 </div>
                                 <br>
-                                <button type="button"><b>Read More</b></button>
-                                <br>
+                                <a href="{{ route('collections.show', $collection->id) }}" class="btn btn-primary">Lihat Detail</a>                         <br>
                                 <br>
                             </div>
                         </div>
