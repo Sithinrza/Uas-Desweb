@@ -29,7 +29,7 @@ class LoginController extends Controller
             $request->session()->regenerate();
 
             // Redirect ke halaman yang sebelumnya diminta, atau ke dashboard jika tidak ada
-            return redirect()->intended('/');
+            return redirect()->intended('dashboard');
         }
 
         // Jika login gagal, kembalikan ke halaman login dengan error

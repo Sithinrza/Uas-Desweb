@@ -14,11 +14,94 @@
 	box-sizing: border-box;
 	overflow: hidden;
 }
+.navbar {
+    display: flex;
+    justify-content: space-between; /* Memisahkan kiri dan kanan */
+    align-items: center;
+    padding: 10px 20px;
+}
 
-.navbar{
-	width: 100%;
-	display: flex;
-	align-items: center;
+.navbar .left-menu {
+    display: flex;
+    align-items: center;
+}
+
+.navbar #logo {
+    width: 40px; /* Sesuaikan ukuran logo */
+    height: 40px;
+}
+
+.navbar .tlogo {
+    font-size: 24px;
+    color: orange;
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+.navbar nav {
+    display: flex;
+    justify-content: flex-end; /* Menu berada di kanan */
+}
+
+.navbar .right-menu {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.navbar .right-menu li {
+    margin-left: 20px;
+    position: relative;
+}
+
+.navbar .right-menu li a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    display: block;
+}
+
+.navbar .dropdown {
+    position: relative;
+}
+
+.navbar .dropdown-toggle {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    color: white;
+    padding: 10px;
+}
+
+.navbar .dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    padding: 5px 0;
+}
+
+.navbar .dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.navbar .logout-btn {
+    border: none;
+    background: none;
+    padding: 10px 20px;
+    color: #7F4B37;
+    text-align: left;
+    cursor: pointer;
+    width: 100%;
+}
+
+.navbar .logout-btn:hover {
+    background-color: #f0f0f0;
 }
 
 .tlogo{

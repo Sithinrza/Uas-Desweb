@@ -15,3 +15,4 @@ Route::post('/login', [LoginController::class, 'login']);
 Route::get('/', [CollectionController::class, 'index']);
 Route::get('/{collection}', [CollectionController::class, 'show'])->name('collections.show');
 
+Route::post('/logout', [LoginController::class, 'logout'])->name('logout');
