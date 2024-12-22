@@ -34,7 +34,9 @@ class AcaraResource extends Resource
                 // Input untuk tanggal acara
                 Forms\Components\DatePicker::make('date')
                     ->label('Tanggal Acara')
-                    ->required(),
+                    ->required()
+                    ->displayFormat('Y-m-d') // Menampilkan tanggal lengkap (tahun-bulan-tanggal)
+                    ->minDate(now()->subYears(500)),
 
                 // Input untuk lokasi acara
                 Forms\Components\TextInput::make('location')
@@ -67,6 +69,7 @@ class AcaraResource extends Resource
 
                 Tables\Columns\TextColumn::make('date')
                     ->label('Tanggal Acara')
+                    ->date('Y-m-d') // Format hanya tahun
                     ->sortable(),
 
                 Tables\Columns\TextColumn::make('location')

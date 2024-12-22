@@ -23,7 +23,7 @@
             <button type="button"><b>Konsultasi</b></i></button>
         </div>
         <div class="col-2">
-            <img src="img/pictures/mammoth.png" class="rex">
+            <img style="height: 500px" src="{{ asset('css/foto.webp') }}" class="rex">
         </div>
 </div>
 <div class="row">

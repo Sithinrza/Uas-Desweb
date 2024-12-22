@@ -7,14 +7,14 @@
     <div class="container mx-auto py-8 px-4">
         <h1 class="text-4xl font-semibold text-center mb-8" style="color: white">Koleksi Lukisan</h1>
 
-        <div class="grid grid-cols-6 gap-8">
+        <div class="grid grid-cols-3 gap-8">
             <div class="bg-white shadow-lg rounded-lg overflow-hidden transform transition-all hover:scale-105 hover:shadow-2xl duration-300">
 
             <div class="row">
                 @foreach($collections as $collection)
                     <div class="col-1">
                         <div class="card">
-                            <img src="{{ Storage::url($collection->image) }}" style="width:100%" class="w-full h-full object-cover transform transition-all hover:scale-110" alt="{{ $collection->name }}">
+                            <img src="{{ Storage::url($collection->image) }}" style="width:100%; height: 200px;" class="w-full h-full object-cover transform transition-all hover:scale-110" alt="{{ $collection->name }}">
                             <div class="containers">
                                 <h5>{{ $collection->name }}</h5>
                                 <h5>{{ $collection->nama_pelukis }}</h5>
@@ -60,6 +60,8 @@
                                 <br>
                                 <div class="flex justify-between" style="color: white">
                                     <span>Tahun: {{ $acara->date }}</span>
+                                </div>
+                                <div class="flex justify-between" style="color: white">
                                     <span>Status: {{ $acara->status }}</span>
                                 </div>
                                 <br>
