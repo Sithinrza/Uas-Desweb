@@ -4,16 +4,16 @@
         <a href="index.html">
             <img src="{{ asset('css/ikon.png') }}" id="logo">
         </a>
-        <h1 class="tlogo">MUSEUM GEOLOGI</h1>
+        <h1 class="tlogo">Héritage des Toiles</h1>
         <nav>
             <ul class="left-menu">
                 <!-- Menu kiri kosong, hanya logo dan title -->
             </ul>
 
             <ul class="right-menu">
-                <li><a href="index.html" class="menu">Home</a></li>
+                <li><a href="" class="menu">Home</a></li>
                 <li><a href="#event" class="menu">Event</a></li>
-                <li><a href="collection.html" class="menu">About</a></li>
+                <li><a href="#about">About</a></li>
 
                 @guest
                 <!-- Tampilkan Sign In jika belum login -->
@@ -44,25 +44,12 @@
 
     <div class="row">
         <div class="col-1">
-            <h2>Selamat Datang di</h2>
-            <h3>MUSEUM GEOLOGI BANDUNG</h3>
-            <p>Berwisata sambil belajar sejarah</p>
-            <br>
-            <button type="button"><b>Konsultasi</b></i></button>
+            <h2>CANVAS VOYAGE</h2>
+            <p>True art transcends time; it is a dialogue between the past and the beholder</p>
         </div>
         <div class="col-2">
             <img style="height: 550px" src="{{ asset('css/foto.webp') }}" class="rex">
         </div>
-</div>
-<div class="row">
-    <div class="col-1">
-        <img src="img/pictures/geo.jpg" class="rex">
     </div>
-    <div class="col-1">
-        <h2>Menjelajahi</h2>
-        <h3>MUSEUM GEOLOGI BANDUNG</h3>
-        <p>Museum Geologi (Aksara Sunda Baku, Musieum Géologi Bandung) didirikan pada tanggal 16 Mei 1929 Museum ini telah direnovasi dengan dana bantuan dari JICA (Japan International Cooperation Agency). Setelah mengalami renovasi, Museum Geologi dibuka kembali dan diresmikan oleh Wakil Presiden RI, Megawati Soekarnoputri pada tanggal 23 Agustus 2000. Sebagai salah satu monumen bersejarah, museum berada di bawah perlindungan pemerintah dan merupakan peninggalan nasional. Dalam Museum ini, tersimpan dan dikelola materi-materi geologi yang berlimpah, seperti fosil, batuan, mineral. Kesemuanya itu dikumpulkan selama kerja lapangan di Indonesia sejak 1850.</p>
-    </div>
-</div>
 </div>
 
